@@ -29,14 +29,14 @@ export default function Home() {
 				style={{ height: "100vh" }}
 				className="flex justify-center items-center"
 			>
-				<h1 className="text-7xl font-bold">Words by Words</h1>
+				<h1 className="text-7xl font-bold">Word by Word</h1>
 			</div>
 			<Words paragraph={paragraph}></Words>
 			<div
 				style={{ height: "100vh" }}
 				className="flex justify-center items-center"
 			>
-				<h1 className="text-6xl font-bold">Characters by Characters</h1>
+				<h1 className="text-6xl font-bold">Character by Character</h1>
 			</div>
 			<Characters paragraph={paragraph}></Characters>
 			<div className="h-[100vh]"></div>

@@ -1,7 +1,6 @@
 "use client";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { useEffect, useRef } from "react";
-import Lenis from "@studio-freight/lenis";
+import { useRef } from "react";
 
 type Props = {
 	paragraph: string;
