@@ -11,7 +11,7 @@ export default function Home() {
 	useEffect(() => {
 		const lenis = new Lenis();
 		function raf(time: any) {
-			lenis.raf(time);
+			lenis.raf(time*0.1);
 			requestAnimationFrame(raf);
 		}
 		requestAnimationFrame(raf);
